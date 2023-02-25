@@ -1,0 +1,344 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+
+body
+{
+  color: #142c5c;
+  line-height: 1;
+}
+
+.container
+{
+  width: 90%;
+  margin: auto;
+}
+
+header
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom-color: #b5b5b5;
+  border-bottom: px;
+  border-style: solid;
+}
+
+ul
+{
+  display: flex;
+}
+
+ul li
+{
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 35px;
+  font-size: 15px;
+}
+
+.icon:hover
+{
+  cursor: pointer;
+}
+
+a
+{
+  all: unset;
+}
+
+.colorstyle
+{
+  color: #3252DF;
+}
+
+.sorotan
+{
+  color: #3252DF;
+
+}
+
+main
+{
+  margin: 30px;
+}
+
+.iklan
+{
+  text-align: center;
+  position: relative;
+}
+
+.ad
+{
+  width: 90%;
+}
+
+.informasi
+{
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  border-radius: 25%;
+}
+
+.button
+{
+  font-family: Arial;
+  width: 20%;
+  background-color: #f7f7f7;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button p
+{
+  display: inline-block;
+  transform: translateY(-50%);
+}
+
+.button:hover
+{
+  cursor: pointer;
+}
+
+.button:nth-child(1)
+{
+  border-right: 1px solid #d0cccc;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.button:nth-child(2)
+{
+  border-left: 1px solid #d0cccc ;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.button:hover
+{
+  cursor: pointer;
+}
+
+.button img
+{
+  width: 30px;
+}
+/*Destinasi*/
+
+.judul
+{
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.width_d
+{
+  width: 240px;
+}
+
+.card_d
+{
+  display: inline-block;
+  position: relative;
+  background-color: #0066FE;
+  color: white !important;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.judul_cardbox
+{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.detail_cardbox
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.detail_cardbox p
+{
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.card_d .utama
+{
+  display: block;
+  border-radius: 25px;
+  height: 250px;
+  width: 100%;
+}
+
+.card_d .bintang
+{
+  width: 34px;
+}
+
+.button_d
+{
+  margin: 10px;
+  width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.button_d button
+{
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font-family: Arial;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button_d button:hover
+{
+  cursor: pointer;
+}
+
+.rekomendasi
+{
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.cardbox
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card_r img
+{
+  display: block;
+  margin: auto;
+}
+
+.card_r .info_r
+{
+  transform: translateY(-100%);
+  color: #f7f7f7;
+  padding: 20px;
+  background: linear-gradient(268.58deg, rgba(0, 0, 0, 0) 34.26%, #0066FE 91.4%);
+}
+
+.card_d .utama_r
+{
+  border-radius: 25px;
+  width: 100%;
+}
+
+.tabel
+{
+  display: flex;
+  justify-content: space-between;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.i
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+
+.i .icon
+{
+  margin-top: 30px;
+}
+
+.i .detail
+{
+  font-family: Arial;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #BDBBBB;
+}
+
+.info
+{
+  width: 300px;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: Arial;
+  text-align: center;
+}
+
+.info .active
+{
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info .judul_info
+{ font-family: Arial; 
+  text-align: center; 
+  margin-top: 50px;
+  font-weight: bold; 
+}
+
+.info .link_info a
+{
+  margin: 30px;
+  color: #BDBBBB;
+  display: block;
+}
+
+.info .link_info img
+{
+  width: 250px;
+}
+
+footer
+{
+  border-top: 1px solid #d0cccc;
+}
+
+.icon
+{
+  font-family: Arial;
+  font-size: 30px;
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+.copyright
+{
+  font-family: Arial;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #BDBBBB;
+  font-weight: bold;
+}
+
